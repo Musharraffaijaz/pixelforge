@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environment
+backend/.venv/
+.venv/
+venv/
+ENV/
+env/
+
+# Node dependencies
+node_modules/
+extension/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+# Note: You can run `npm run build:ext` to build the unpacked extension into extension/dist
+extension/dist/
+
+# Model checkpoints / Cache
+.u2net/
+*.onnx
+
+# Environment variables & local configs
+.env
+.env.local
+.env.*.local
+
+# IDEs & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.log
